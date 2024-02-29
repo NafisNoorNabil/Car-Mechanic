@@ -1,0 +1,105 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+}
+
+body {
+    background-image:linear-gradient(rgba(6, 52, 92, 0.753),rgba(4, 6, 61, 0.622)),url(pic3.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.wrapper {
+    position: relative;
+    max-width: 430px;
+    width: 100%;
+    background: #fff;
+    padding: 34px;
+    border-radius: 6px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 5px 2px rgb(0, 0, 0);
+}
+.wrapper h2 {
+    position: relative;
+    font-size: 22px;
+    font-weight: 600;
+    color: #333;
+}
+.wrapper h2::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 28px;
+    border-radius: 12px;
+    background: #2500bb;
+}
+.wrapper form {
+    margin-top: 30px;
+    
+    
+}
+.wrapper form .input-box {
+    height: 52px;
+    margin: 18px 0;
+}
+form .input-box input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #333;
+    border: 0.5px solid rgb(215, 215, 215);
+    border-bottom-width: 2.5px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    background-color: rgb(233, 235, 235);
+}
+.input-box input:focus,
+.input-box input:valid {
+    border-color: rgb(123, 123, 123);
+}
+form .policy {
+    display: flex;
+    align-items: center;
+
+}
+form h3 {
+    color: #0c0457;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+.input-box.button input {
+    color: #fff;
+    letter-spacing: 1px;
+    border: none;
+    background-color: rgb(66, 9, 172);
+    cursor: pointer;
+}
+.input-box.button input:hover {
+    background-color: rgb(38, 6, 103);
+}
+form .text h3 {
+    color: #333;
+    width: 100%;
+    text-align: center;
+}
+form .text h3 a {
+    color: rgb(60, 7, 166);
+    text-decoration: none;
+}
+form .text h3 a:hover {
+    text-decoration: underline;
+}

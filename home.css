@@ -1,0 +1,316 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: rgb(0, 0, 0);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+ul{
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0px 30px 0px 30px;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size:20px;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    font-family: 'Merriweather', serif;
+    letter-spacing: 2px;
+    transition: 0.4s;
+    background-color: rgb(0, 0, 0);
+
+}
+nav ul li a:hover{
+    color: black;
+    background-color: azure;
+    padding: 20px 30px 20px 30px;
+}
+
+
+.formdesign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+body {
+    background-color: #FFFCF2;
+    height: 100vh;
+    background-position: center;
+    background-size:cover;
+    align-items: center;
+    justify-content: center;
+    
+
+
+}
+.wrapper {
+    position: relative;
+    max-width: 600px;
+    width: 100%;
+    background: #fff;
+    padding: 34px;
+    border-radius: 6px;
+
+    box-shadow: 1px 1px 10px 1px rgb(131, 131, 131);
+}
+.wrapper h2 {
+    position: relative;
+    font-size: 22px;
+    font-weight: 600;
+    color: #333;
+}
+.wrapper h2::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 28px;
+    border-radius: 12px;
+    background: #2500bb;
+}
+.wrapper form {
+    margin-top: 30px;
+    
+    
+}
+.wrapper form .input-box {
+    height: 52px;
+    margin: 18px 0;
+}
+form .input-box input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #333;
+    border: 0.5px solid rgb(215, 215, 215);
+    border-bottom-width: 2.5px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    background-color: rgb(233, 235, 235);
+}
+.input-box input:focus,
+.input-box input:valid {
+    border-color: rgb(123, 123, 123);
+}
+form .policy {
+    display: flex;
+    align-items: center;
+
+}
+form h3 {
+    color: #0c0457;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+.input-box.button input {
+    color: #fff;
+    letter-spacing: 1px;
+    border: none;
+    background-color: rgb(66, 9, 172);
+    cursor: pointer;
+}
+.input-box.button input:hover {
+    background-color: rgb(38, 6, 103);
+}
+form .text h3 {
+    color: #333;
+    width: 100%;
+    text-align: center;
+}
+form .text h3 a {
+    color: rgb(60, 7, 166);
+    text-decoration: none;
+}
+form .text h3 a:hover {
+    text-decoration: underline;
+}
+
+
+.intro{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.intro h1{
+    font-size: 40px;
+    margin-bottom: 40px;
+    margin-top: 100px;
+    
+}
+.intro h2{
+    margin-bottom: 80px;
+    color: #5d5d5d;
+}
+
+.intro a{
+    cursor: pointer;
+
+    text-decoration: none;
+    background-color: rgb(60, 7, 166);
+    padding: 20px 30px 20px 30px;
+    color: white;
+    border-radius: 4px;
+    font-family: 'Merriweather', serif;
+    transition: 0.3s;
+}
+.intro a:hover{
+    background-color: rgb(38, 6, 103);
+    padding: 23px 33px 23px 33px;
+    letter-spacing: 2px;
+
+}
+
+.images{
+    background-color: #000000;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 2px 2px 10px 5px grey;
+}
+
+
+.select{
+    background-color: rgb(233, 235, 235);
+    width: 400px;
+    font-family: 'Merriweather', serif;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.option{
+    background-color: rgb(233, 235, 235);
+    font-family: 'Merriweather', serif;
+    padding: 10px;
+}
+
+
+
+
+.tableclass h1{
+    text-align: center;
+    background-color: rgb(7, 38, 54);
+    font-family: 'Merriweather', serif;
+
+    padding: 50px;
+    color: white;
+    letter-spacing: 3px;
+    word-spacing: 6px;
+
+}
+
+
+
+table {
+
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+    
+  }
+  
+  th {
+    background-color: rgb(145, 222, 252);
+    /* color: white; */
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #ddd;
+  }
+
+.book{
+    font-size: 15px;
+    text-decoration: none;
+    padding:10px 25px 10px 25px;
+    border-radius: 4px;
+    border: none;
+    background-color: rgb(106, 107, 107);
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.book:hover{
+    background-color: black;
+}
+
+.circle{
+    height:25px;
+    width: 25px;
+    background-color: rgb(10, 52, 73);
+    margin: 4px;
+    border-radius: 100%;
+}
+.rate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.animation{
+    margin-left: 42%;
+}
+
+.available{
+    border: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 4px;
+    background-color: rgb(142, 255, 142);
+    cursor: pointer;
+    font-family: 'Merriweather', serif;
+    font-weight: 600;
+}
+.unavailable{
+
+    border: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 4px;
+    background-color: rgb(255, 168, 168);
+    cursor: pointer;
+    font-weight: 600;
+    font-family: 'Merriweather', serif;
+}
+
+.mechhead{
+    background-color: #ffffff;
+    text-align: center;
+}
